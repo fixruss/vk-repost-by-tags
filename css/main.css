@@ -1,0 +1,92 @@
+body {
+    font: 400 14px/14px Arial;
+    background: #d5dee2;
+    margin: 0;
+    overflow: hidden;
+}
+
+.h1 {
+    font: 400 18px/22px Arial;
+    margin: 10px 0 0;
+}
+
+.h2 {
+    font: 400 14px/18px Arial;
+    margin: 0 0 10px;
+}
+
+.statistic {
+    display: inline-block;
+}
+
+.statistic p {
+    font: 400 14px/18px Arial;
+    margin: 0;
+    margin: 0 20px 0 0;
+}
+
+button {
+    background: #9125ff;
+    border: 0;
+    color: #fff;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+input[type="text"],
+textarea {
+    border: 1px solid #9125ff;
+    padding: 6px;
+}
+
+.controls {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px 0 0;
+    background: #c0ced4;
+    padding: 10px;
+    height: 100vh;
+}
+
+#posts {
+    float: right;
+    vertical-align: top;
+    height: 90vh;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.active {
+    background: blue;
+}
+
+.good {
+    background: green;
+}
+
+.bad {
+    background: red;
+}
+
+.exist {
+    background: orange;
+}
+
+.marks {
+    margin: 10px 0 0;
+}
+
+.log {
+    height: 55vh;
+    overflow-y: scroll;
+}
+
+.log p {
+    font: 400 12px/12px Arial;
+    margin: 0;
+}
+
+.captcha {
+    height: 52px;
+    margin: 10px 0;
+}
