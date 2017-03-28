@@ -31,9 +31,9 @@ RuCapthca.prototype.checkCaptcha = function() {
                     console.log('ERROR_CAPTCHA_UNSOLVABLE, run again, get new captcha');
                 }
             } else if (response.status == 1) {
-                this.captchaText = response.request;
+                _this.captchaText = response.request;
 
-                vk.log('Captcha = ' + this.captchaText);
+                vk.log('Captcha = ' + _this.captchaText);
                 vk.reposting();
             }
         }

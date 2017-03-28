@@ -154,6 +154,9 @@ Vk.prototype.repostSuccess = function(data) {
 
     console.log(data);
 
+    this.captchaSid = '';
+    ruCapthca.captchaText = '';
+
     if (data.status == 1) {
         this.post.addClass('good');
         _this.log('Post added');
@@ -173,7 +176,7 @@ Vk.prototype.repostSuccess = function(data) {
 
             this.captchaSid = data.response.error.captcha_sid;
 
-            $('.captcha').html('<img src="' + data.response.error.captcha_img + '">');
+            $('.captcha').html('<img src="src/image.jpg">');
 
             ruCapthca.captchaId = data.ruCapthca.request;
 
